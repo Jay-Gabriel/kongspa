@@ -95,8 +95,19 @@ const Hero = () => {
       id="hero"
       className="relative min-h-screen w-full flex flex-col justify-between overflow-hidden bg-[#0a0a0a]"
     >
-      {/* Background Image with Ken Burns zoom and dark gradient overlay */}
-      <AmbientImage src="image/image_55926b.jpg" alt="Gentleman's Head Wash and Grooming" />
+      {/* Background Video with loop and dark gradient overlay */}
+      <div className="absolute inset-0 w-full h-full overflow-hidden z-0">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="image/mp4.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-[#0a0a0a] pointer-events-none" />
+      </div>
 
       {/* Main Content Area */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center pt-32 px-4 text-center">
@@ -131,7 +142,7 @@ const Hero = () => {
           initial="hidden"
           animate="visible"
           variants={entryVariants}
-          className="text-sm md:text-base text-white/80 max-w-2xl font-body font-light leading-relaxed mt-4"
+          className="text-[15px] sm:text-base text-white/80 max-w-2xl font-body font-light leading-relaxed mt-4"
         >
           Experience unparalleled therapeutic scalp massage, herbal hair wash, and deep tissue restoration in a dark, masculine sanctuary designed exclusively for your recovery.
         </motion.p>
@@ -186,7 +197,7 @@ const Hero = () => {
               <span className="font-heading italic text-gold text-4xl tracking-[-1px] leading-none">
                 75 Min
               </span>
-              <p className="text-xs text-white/70 font-body font-light mt-2 leading-tight">
+              <p className="text-[13px] sm:text-xs text-white/70 font-body font-light mt-2 leading-tight">
                 Signature Head & Scalp Therapy
               </p>
             </div>
@@ -206,7 +217,7 @@ const Hero = () => {
               <span className="font-heading italic text-gold text-4xl tracking-[-1px] leading-none">
                 5-Star
               </span>
-              <p className="text-xs text-white/70 font-body font-light mt-2 leading-tight">
+              <p className="text-[13px] sm:text-xs text-white/70 font-body font-light mt-2 leading-tight">
                 Gentlemen Satisfaction
               </p>
             </div>
@@ -224,7 +235,7 @@ const Hero = () => {
         className="relative z-10 flex flex-col items-center gap-4 pb-8"
       >
         <div className="smoked-glass rounded-full px-4 py-1.5 border border-gold/10 hover:border-gold/20 transition-all duration-300">
-          <span className="text-[11px] font-body font-medium text-white/80 uppercase tracking-widest">
+          <span className="text-xs sm:text-[11px] font-body font-medium text-white/80 uppercase tracking-widest">
             Mastering the eastern art of scalp and body restoration
           </span>
         </div>

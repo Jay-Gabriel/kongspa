@@ -157,7 +157,7 @@ const Therapies = () => {
                   {card.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="smoked-glass rounded-full px-2 py-0.5 text-[10px] text-white/70 font-body border border-white/5 whitespace-nowrap"
+                      className="smoked-glass rounded-full px-2 py-0.5 text-[11px] sm:text-[10px] text-white/70 font-body border border-white/5 whitespace-nowrap"
                     >
                       {tag}
                     </span>
@@ -173,7 +173,7 @@ const Therapies = () => {
                 <h3 className="font-heading italic text-gold-light text-2xl md:text-3xl tracking-[-0.5px] leading-tight">
                   {card.title}
                 </h3>
-                <p className="mt-3 text-xs md:text-sm text-white/70 font-body font-light leading-relaxed max-w-[32ch]">
+                <p className="mt-3 text-[13px] md:text-sm text-white/70 font-body font-light leading-relaxed max-w-[32ch]">
                   {card.description}
                 </p>
               </div>
@@ -183,7 +183,7 @@ const Therapies = () => {
 
         {/* Footer info (Bottom) */}
         <div className="mt-12 text-center border-t border-gold/10 pt-6">
-          <p className="text-[11px] font-body font-light text-white/40 tracking-wider">
+          <p className="text-xs sm:text-[11px] font-body font-light text-white/40 tracking-wider">
             {"\u00A9 2026 KONGKO SPA FOR MEN. ALL RIGHTS RESERVED. RESERVATIONS REQUIRE ADVANCE BOOKING."}
           </p>
         </div>
