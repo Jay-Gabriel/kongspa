@@ -96,18 +96,18 @@ const MenuSection = () => {
                       className="flex items-center justify-between border-b border-white/5 pb-2.5 last:border-0 last:pb-0 group"
                     >
                       <div className="flex-1 pr-4">
-                        <h4 className="text-[15px] sm:text-sm font-semibold text-white/95 group-hover:text-gold transition-colors duration-300">
+                        <h4 className="text-base sm:text-sm font-semibold text-white/95 group-hover:text-gold transition-colors duration-300">
                           {item.name}
                         </h4>
-                        <p className="text-xs sm:text-[11px] text-white/60 font-body font-light mt-0.5 italic">
+                        <p className="text-sm sm:text-xs text-white/60 font-body font-light mt-0.5 italic">
                           {item.vietnamese}
                         </p>
                       </div>
                       <div className="flex items-baseline gap-2 text-right">
-                        <span className="text-[15px] sm:text-sm font-semibold text-gold-light">
+                        <span className="text-base sm:text-sm font-semibold text-gold-light">
                           {item.price}
                         </span>
-                        <span className="text-sm sm:text-xs text-white/40">
+                        <span className="text-base sm:text-xs text-white/40">
                           ({item.usd})
                         </span>
                       </div>
@@ -122,13 +122,13 @@ const MenuSection = () => {
               whileHover={{ scale: 1.01 }}
               className="smoked-glass-strong rounded-[1.25rem] p-5 border border-gold/30 text-center flex flex-col gap-1.5 shadow-xl"
             >
-              <span className="text-[13px] sm:text-xs font-bold text-gold uppercase tracking-[0.25em] font-body">
+              <span className="text-sm sm:text-xs font-bold text-gold uppercase tracking-[0.25em] font-body">
                 ✦ Special Offer / Ưu Đãi Đặc Biệt ✦
               </span>
-              <p className="text-[17px] sm:text-base font-semibold text-white/95 font-body">
+              <p className="text-lg sm:text-base font-semibold text-white/95 font-body">
                 50.000 VNĐ OFF when using 2 or more services
               </p>
-              <p className="text-sm sm:text-xs text-gold-light font-body font-light">
+              <p className="text-base sm:text-xs text-gold-light font-body font-light">
                 Giảm 50.000 VNĐ khi sử dụng từ 2 dịch vụ trở lên
               </p>
             </motion.div>

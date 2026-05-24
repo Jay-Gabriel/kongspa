@@ -120,7 +120,7 @@ const Hero = () => {
           variants={entryVariants}
           className="smoked-glass rounded-full flex items-center p-1 pl-1 pr-3 max-w-lg mb-6 border border-gold/10 hover:border-gold/20 transition-all duration-300"
         >
-          <span className="bg-gold text-black px-3.5 py-1 text-[11px] font-extrabold uppercase tracking-wider rounded-full mr-2.5">
+          <span className="bg-gold text-black px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider rounded-full mr-2.5">
             Premium
           </span>
           <span className="text-xs font-body font-medium text-gold-light tracking-wide">
@@ -197,7 +197,7 @@ const Hero = () => {
               <span className="font-heading italic text-gold text-4xl tracking-[-1px] leading-none">
                 75 Min
               </span>
-              <p className="text-[13px] sm:text-xs text-white/70 font-body font-light mt-2 leading-tight">
+              <p className="text-sm sm:text-xs text-white/70 font-body font-light mt-2 leading-tight">
                 Signature Head & Scalp Therapy
               </p>
             </div>
@@ -217,7 +217,7 @@ const Hero = () => {
               <span className="font-heading italic text-gold text-4xl tracking-[-1px] leading-none">
                 5-Star
               </span>
-              <p className="text-[13px] sm:text-xs text-white/70 font-body font-light mt-2 leading-tight">
+              <p className="text-sm sm:text-xs text-white/70 font-body font-light mt-2 leading-tight">
                 Gentlemen Satisfaction
               </p>
             </div>
@@ -235,7 +235,7 @@ const Hero = () => {
         className="relative z-10 flex flex-col items-center gap-4 pb-8"
       >
         <div className="smoked-glass rounded-full px-4 py-1.5 border border-gold/10 hover:border-gold/20 transition-all duration-300">
-          <span className="text-xs sm:text-[11px] font-body font-medium text-white/80 uppercase tracking-widest">
+          <span className="text-sm sm:text-xs font-body font-medium text-white/80 uppercase tracking-widest">
             Mastering the eastern art of scalp and body restoration
           </span>
         </div>

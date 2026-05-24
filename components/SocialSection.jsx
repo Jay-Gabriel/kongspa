@@ -108,20 +108,20 @@ const SocialSection = () => {
                 <h3 className="font-heading italic text-white text-3xl tracking-wide leading-none">
                   Kongko Spa
                 </h3>
-                <span className="text-[11px] sm:text-[10px] uppercase font-body text-gold tracking-widest">
+                <span className="text-xs uppercase font-body text-gold tracking-widest">
                   For Man
                 </span>
               </div>
             </div>
             
-            <p className="text-[13px] sm:text-xs text-white/60 font-body font-light leading-relaxed max-w-sm">
+            <p className="text-sm sm:text-xs text-white/60 font-body font-light leading-relaxed max-w-sm">
               Discover a new baseline of male wellness. Kongko Spa offers a curated series of restoration rituals blending ancient methodologies with absolute luxury.
             </p>
           </div>
 
           {/* Col 2: Operating Hours & Address (4 cols) */}
           <div className="md:col-span-4 flex flex-col gap-6">
-            <h4 className="text-[13px] sm:text-xs font-semibold text-gold uppercase tracking-[0.2em] font-body mb-1">
+            <h4 className="text-sm sm:text-xs font-semibold text-gold uppercase tracking-[0.2em] font-body mb-1">
               Ritual Locations
             </h4>
             
@@ -131,14 +131,14 @@ const SocialSection = () => {
                 <PinIcon />
               </div>
               <div className="flex-1">
-                <span className="text-[13px] sm:text-xs text-white/50 font-body block uppercase tracking-wider">
+                <span className="text-sm sm:text-xs text-white/50 font-body block uppercase tracking-wider">
                   Address
                 </span>
                 <a
                   href="https://maps.google.com/?q=10+ngõ+29+cửa+bắc+ba+đình+hà+nội"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[15px] sm:text-sm text-white/85 hover:text-gold transition-colors duration-300 font-body font-light mt-1 block"
+                  className="text-base sm:text-sm text-white/85 hover:text-gold transition-colors duration-300 font-body font-light mt-1 block"
                 >
                   10 ngõ 29 cửa bắc, p. Trúc Bạch, q. Ba Đình, TP. Hà Nội
                 </a>
@@ -151,10 +151,10 @@ const SocialSection = () => {
                 <ClockIcon />
               </div>
               <div className="flex-1">
-                <span className="text-[13px] sm:text-xs text-white/50 font-body block uppercase tracking-wider">
+                <span className="text-sm sm:text-xs text-white/50 font-body block uppercase tracking-wider">
                   Operating Hours
                 </span>
-                <p className="text-[15px] sm:text-sm text-white/85 font-body font-light mt-1">
+                <p className="text-base sm:text-sm text-white/85 font-body font-light mt-1">
                   Daily: 09:00 AM — 10:00 PM
                 </p>
               </div>
@@ -163,7 +163,7 @@ const SocialSection = () => {
 
           {/* Col 3: Connect & Bookings (4 cols) */}
           <div className="md:col-span-4 flex flex-col gap-6">
-            <h4 className="text-[13px] sm:text-xs font-semibold text-gold uppercase tracking-[0.2em] font-body mb-1">
+            <h4 className="text-sm sm:text-xs font-semibold text-gold uppercase tracking-[0.2em] font-body mb-1">
               Digital Sanctuary
             </h4>
 
@@ -208,12 +208,12 @@ const SocialSection = () => {
 
             {/* Quick Contacts */}
             <div className="flex flex-col gap-2 border-t border-white/5 pt-4">
-              <span className="text-[11px] sm:text-[10px] text-white/40 font-body uppercase tracking-widest">
+              <span className="text-xs text-white/40 font-body uppercase tracking-widest">
                 Direct Booking Hotline
               </span>
               <a
                 href="tel:+84999999999"
-                className="text-lg sm:text-base text-gold hover:text-gold-light transition-colors font-body font-semibold"
+                className="text-xl sm:text-base text-gold hover:text-gold-light transition-colors font-body font-semibold"
               >
                 +84 (0) 99 999 9999
               </a>
