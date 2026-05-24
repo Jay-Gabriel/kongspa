@@ -225,7 +225,7 @@ const SocialSection = () => {
         {/* Divider & Copyright */}
         <div className="border-t border-white/5 mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="text-xs text-white/30 font-body font-light">
-            © 2026 KONGKO SPA FOR MEN. ALL RIGHTS RESERVED. DESIGNED FOR GENTLEMEN.
+            {"\u00A9 2026 KONGKO SPA FOR MEN. ALL RIGHTS RESERVED. DESIGNED FOR GENTLEMEN."}
           </span>
           <div className="flex gap-6">
             <a href="#hero" className="text-xs text-white/40 hover:text-gold transition-colors font-body font-light">Privacy Policy</a>

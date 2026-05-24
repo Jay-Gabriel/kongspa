@@ -67,26 +67,13 @@ const MenuSection = () => {
             transition={{ duration: 0.8, type: "spring", stiffness: 60 }}
             className="lg:col-span-5 flex items-center justify-center"
           >
-            <motion.div
-              whileHover={{ scale: 1.02, rotate: 1 }}
-              transition={{ type: "spring", stiffness: 100 }}
-              className="relative rounded-2xl overflow-hidden border border-gold/25 p-2 bg-black/45 backdrop-blur shadow-2xl shadow-black/80 w-full max-w-md cursor-zoom-in"
-              onClick={() => {
-                // simple overlay preview modal trigger
-                window.open("image/image_menu.jpg", "_blank");
-              }}
-            >
+            <div className="relative rounded-2xl overflow-hidden border border-gold/25 p-2 bg-black/45 backdrop-blur shadow-2xl shadow-black/80 w-full max-w-md">
               <img
                 src="image/image_menu.jpg"
                 alt="Kongko Spa Services Booklet"
                 className="w-full h-auto rounded-xl object-contain shadow-lg border border-gold/10"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/30 opacity-0 hover:opacity-100 flex items-end justify-center pb-4 transition-opacity duration-300 pointer-events-none">
-                <span className="text-xs text-gold font-body bg-[#0a0a0af0] px-3.5 py-1.5 rounded-full border border-gold/20 tracking-wider">
-                  View Full Booklet Image
-                </span>
-              </div>
-            </motion.div>
+            </div>
           </motion.div>
 
           {/* Right: Digital Menu list (7 cols) */}

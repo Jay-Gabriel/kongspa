@@ -184,7 +184,7 @@ const Therapies = () => {
         {/* Footer info (Bottom) */}
         <div className="mt-12 text-center border-t border-gold/10 pt-6">
           <p className="text-[11px] font-body font-light text-white/40 tracking-wider">
-            © 2026 KONGKO SPA FOR MEN. ALL RIGHTS RESERVED. RESERVATIONS REQUIRE ADVANCE BOOKING.
+            {"\u00A9 2026 KONGKO SPA FOR MEN. ALL RIGHTS RESERVED. RESERVATIONS REQUIRE ADVANCE BOOKING."}
           </p>
         </div>
 
