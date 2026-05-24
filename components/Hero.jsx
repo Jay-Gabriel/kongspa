@@ -147,33 +147,7 @@ const Hero = () => {
           Experience unparalleled therapeutic scalp massage, herbal hair wash, and deep tissue restoration in a dark, masculine sanctuary designed exclusively for your recovery.
         </motion.p>
 
-        {/* CTAs */}
-        <motion.div
-          custom={1.1}
-          initial="hidden"
-          animate="visible"
-          variants={entryVariants}
-          className="flex flex-col sm:flex-row items-center gap-5 mt-8 w-full sm:w-auto"
-        >
-          <button className="w-full sm:w-auto smoked-glass-strong rounded-full px-7 py-3.5 text-sm font-semibold text-gold-light hover:text-white flex items-center justify-center gap-2 hover:scale-[1.03] transition-all duration-300 shadow-xl shadow-black/40">
-            Reserve Your Time
-            <ArrowUpRight className="h-5 w-5 stroke-[2.5]" />
-          </button>
-          
-          <a
-            href="#therapies"
-            onClick={(e) => {
-              e.preventDefault();
-              document.getElementById("therapies")?.scrollIntoView({ behavior: "smooth" });
-            }}
-            className="text-sm font-body font-medium text-white/95 hover:text-gold flex items-center gap-2 group transition-colors duration-300 py-2"
-          >
-            Explore Treatments
-            <span className="p-2 rounded-full bg-white/5 border border-white/10 group-hover:bg-gold/10 group-hover:border-gold/20 transition-all duration-300">
-              <PlayIcon className="h-3 w-3 fill-gold" />
-            </span>
-          </a>
-        </motion.div>
+
 
         {/* Stats Row */}
         <motion.div
