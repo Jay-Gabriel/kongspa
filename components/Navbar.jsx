@@ -37,6 +37,18 @@ const Navbar = () => {
     }
   };
 
+  const handleBookNowClick = (e) => {
+    e.preventDefault();
+    setIsMobileMenuOpen(false);
+    const targetElement = document.getElementById("social");
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+    setTimeout(() => {
+      window.dispatchEvent(new CustomEvent("trigger-booking-highlight"));
+    }, 850);
+  };
+
   return (
     <>
       <nav className="fixed top-4 left-0 w-full px-4 md:px-8 lg:px-16 z-50">
@@ -62,7 +74,10 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <button className="bg-gold hover:bg-gold-light text-black font-body text-sm font-semibold px-5 py-2 rounded-full flex items-center gap-1.5 transition-all duration-300 shadow-lg shadow-gold/20 hover:scale-[1.03] whitespace-nowrap ml-2">
+            <button
+              onClick={handleBookNowClick}
+              className="bg-gold hover:bg-gold-light text-black font-body text-sm font-semibold px-5 py-2 rounded-full flex items-center gap-1.5 transition-all duration-300 shadow-lg shadow-gold/20 hover:scale-[1.03] whitespace-nowrap ml-2"
+            >
               Book Now
               <ArrowUpRight className="h-4 w-4 stroke-[3]" />
             </button>
@@ -122,7 +137,10 @@ const Navbar = () => {
               transition={{ delay: 0.35 }}
               className="flex flex-col gap-4 items-center"
             >
-              <button className="w-full max-w-xs bg-gold hover:bg-gold-light text-black font-body text-base font-semibold py-3 rounded-full flex items-center justify-center gap-1.5 transition-all shadow-lg shadow-gold/20">
+              <button
+                onClick={handleBookNowClick}
+                className="w-full max-w-xs bg-gold hover:bg-gold-light text-black font-body text-base font-semibold py-3 rounded-full flex items-center justify-center gap-1.5 transition-all shadow-lg shadow-gold/20"
+              >
                 Book Now
                 <ArrowUpRight className="h-5 w-5 stroke-[3]" />
               </button>
