@@ -70,7 +70,7 @@ const MenuSection = () => {
             <div className="relative rounded-2xl overflow-hidden border border-gold/25 p-2 bg-black/45 backdrop-blur shadow-2xl shadow-black/80 w-full max-w-md">
               <img
                 src="image/image_menu.jpg"
-                alt="Kongko Spa Services Booklet"
+                alt="kongkospa Services Booklet"
                 className="w-full h-auto rounded-xl object-contain shadow-lg border border-gold/10"
               />
             </div>

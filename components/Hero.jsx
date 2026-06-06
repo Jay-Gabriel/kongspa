@@ -123,18 +123,18 @@ const Hero = () => {
           <span className="bg-gold text-black px-3.5 py-1 text-xs font-extrabold uppercase tracking-wider rounded-full mr-2.5">
             Premium
           </span>
-          <span className="text-xs font-body font-medium text-gold-light tracking-wide">
-            Exclusive Scalp Therapy & Grooming Retreat for Men
-          </span>
+          <h2 className="text-xs font-body font-medium text-gold-light tracking-wide">
+            Exclusive Scalp Therapy & Grooming Retreat for Men at kongkospa
+          </h2>
         </motion.div>
 
         {/* Headline */}
-        <div className="mb-4">
+        <h1 className="mb-4">
           <BlurText
             text="Refine Your Essence Reclaim Your Calm"
             className="text-5xl md:text-7xl lg:text-[5.5rem] font-heading italic text-white leading-[0.95] max-w-4xl justify-center tracking-[-2px]"
           />
-        </div>
+        </h1>
 
         {/* Subheading */}
         <motion.p

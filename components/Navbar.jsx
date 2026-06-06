@@ -57,7 +57,7 @@ const Navbar = () => {
           <a href="#hero" onClick={(e) => handleScroll(e, "#hero")} className="h-12 w-12 rounded-full overflow-hidden border border-gold/20 flex items-center justify-center bg-black">
             <img
               src="image/image_559267.jpg"
-              alt="Kongko Spa Logo"
+              alt="kongkospa Logo"
               className="w-full h-full object-contain"
             />
           </a>

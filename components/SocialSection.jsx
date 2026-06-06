@@ -135,6 +135,7 @@ const SocialSection = () => {
     <section
       id="social"
       className="relative w-full bg-[#050505] border-t border-gold/10 pt-20 pb-12 overflow-hidden"
+      style={{ isolation: "isolate" }}
     >
       {/* Background glow effects to look highly premium */}
       <div className="absolute top-0 left-1/4 w-[350px] h-[350px] rounded-full bg-gold/5 blur-[120px] pointer-events-none" />
@@ -154,14 +155,14 @@ const SocialSection = () => {
                 <div className="h-12 w-12 rounded-full overflow-hidden border border-gold/20 flex items-center justify-center bg-black">
                   <img
                     src="image/image_559267.jpg"
-                    alt="Kongko Spa Logo"
+                    alt="kongkospa Logo"
                     className="w-full h-full object-contain"
                   />
                 </div>
                 <div>
-                  <h3 className="font-heading italic text-white text-3xl tracking-wide leading-none">
-                    Kongko Spa
-                  </h3>
+                  <h2 className="font-heading italic text-white text-3xl tracking-wide leading-none">
+                    kongkospa
+                  </h2>
                   <span className="text-xs uppercase font-body text-gold tracking-widest">
                     For Man
                   </span>
@@ -169,7 +170,7 @@ const SocialSection = () => {
               </div>
               
               <p className="text-sm sm:text-xs text-white/60 font-body font-light leading-relaxed max-w-xl">
-                Discover a new baseline of male wellness. Kongko Spa offers a curated series of restoration rituals blending ancient methodologies with absolute luxury.
+                Discover a new baseline of male wellness. kongkospa offers a curated series of restoration rituals blending ancient methodologies with absolute luxury.
               </p>
             </div>
 
@@ -376,7 +377,7 @@ const SocialSection = () => {
               {/* Top video label */}
               <div className="relative z-20 p-5 flex items-center justify-between pointer-events-none">
                 <span className="text-[10px] font-body tracking-[0.25em] text-white/80 uppercase font-semibold drop-shadow-md">
-                  Kongko Sanctuary
+                  kongkospa Sanctuary
                 </span>
                 <span className="h-2 w-2 rounded-full bg-gold animate-pulse" />
               </div>
@@ -448,7 +449,7 @@ const SocialSection = () => {
         {/* Divider & Copyright */}
         <div className="border-t border-white/5 mt-16 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="text-xs text-white/30 font-body font-light">
-            {"\u00A9 2026 KONGKO SPA FOR MEN. ALL RIGHTS RESERVED. DESIGNED FOR GENTLEMEN."}
+            {"\u00A9 2026 KONGKOSPA FOR MEN. ALL RIGHTS RESERVED. DESIGNED FOR GENTLEMEN."}
           </span>
           <div className="flex gap-6">
             <a href="#hero" className="text-xs text-white/40 hover:text-gold transition-colors font-body font-light">Privacy Policy</a>
