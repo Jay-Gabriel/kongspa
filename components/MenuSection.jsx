@@ -4,20 +4,35 @@ const MenuSection = () => {
 
   const categories = [
     {
-      title: "Restorative Massage & Scrub",
+      title: "Massage Body (Have Stone Hot / Có Đá Nóng)",
       items: [
-        { name: "60 Minutes Session", vietnamese: "Trị Liệu 60 Phút (Có Đá Nóng)", price: "350.000 VNĐ", usd: "$13" },
-        { name: "75 Minutes Session", vietnamese: "Trị Liệu 75 Phút (Có Đá Nóng)", price: "440.000 VNĐ", usd: "$17" },
-        { name: "90 Minutes Session", vietnamese: "Trị Liệu 90 Phút (Có Đá Nóng)", price: "530.000 VNĐ", usd: "$20" },
-        { name: "120 Minutes Session", vietnamese: "Trị Liệu 120 Phút (Có Đá Nóng)", price: "700.000 VNĐ", usd: "$27" },
-        { name: "Herbal Body Scrub (Tẩy Da Chết)", vietnamese: "Tẩy tế bào chết thảo mộc", price: "200.000 VNĐ", usd: "$8" }
+        { name: "60 Minutes", vietnamese: "Trị Liệu 60 Phút (Có Đá Nóng)", price: "350.000 VNĐ", usd: "$13" },
+        { name: "75 Minutes", vietnamese: "Trị Liệu 75 Phút (Có Đá Nóng)", price: "440.000 VNĐ", usd: "$17" },
+        { name: "90 Minutes", vietnamese: "Trị Liệu 90 Phút (Có Đá Nóng)", price: "530.000 VNĐ", usd: "$20" },
+        { name: "120 Minutes", vietnamese: "Trị Liệu 120 Phút (Có Đá Nóng)", price: "700.000 VNĐ", usd: "$27" }
       ]
     },
     {
-      title: "Oriental Scalp & Body Rituals",
+      title: "Fourhands (Massage 4 Tay)",
       items: [
-        { name: "Therapeutic Scalp & Head Wash", vietnamese: "Gội Đầu Dưỡng Sinh Đông Y", price: "250.000 VNĐ", usd: "$10" },
-        { name: "Herbal Fire Cupping Ritual", vietnamese: "Giác Hơi Thải Độc Cổ Truyền", price: "200.000 VNĐ", usd: "$8" }
+        { name: "60 Minutes", vietnamese: "Massage 4 Tay 60 Phút", price: "700.000 VNĐ", usd: "$27" },
+        { name: "75 Minutes", vietnamese: "Massage 4 Tay 75 Phút", price: "880.000 VNĐ", usd: "$33" },
+        { name: "90 Minutes", vietnamese: "Massage 4 Tay 90 Phút", price: "1.050.000 VNĐ", usd: "$40" },
+        { name: "120 Minutes", vietnamese: "Massage 4 Tay 120 Phút", price: "1.400.000 VNĐ", usd: "$54" }
+      ]
+    },
+    {
+      title: "Therapeutic Hairwash (Gội Đầu Dưỡng Sinh)",
+      items: [
+        { name: "45 Minutes (Offer)", vietnamese: "Gội Đầu Dưỡng Sinh 45 Phút (Ưu Đãi)", price: "250.000 VNĐ", usd: "$10" },
+        { name: "75 Minutes (Luxury) + Facial Massage", vietnamese: "Gội Đầu Dưỡng Sinh Cao Cấp + Massage Mặt 75 Phút", price: "550.000 VNĐ", usd: "$21" }
+      ]
+    },
+    {
+      title: "Body Scrub & Cupping (Tẩy Da Chết & Giác Hơi)",
+      items: [
+        { name: "Body Scrub - 20 Minutes", vietnamese: "Tẩy tế bào chết thảo mộc 20 Phút", price: "200.000 VNĐ", usd: "$8" },
+        { name: "Cupping Therapy - 20 Minutes", vietnamese: "Giác hơi thải độc cổ truyền 20 Phút", price: "200.000 VNĐ", usd: "$8" }
       ]
     }
   ];
@@ -69,7 +84,7 @@ const MenuSection = () => {
           >
             <div className="relative rounded-2xl overflow-hidden border border-gold/25 p-2 bg-black/45 backdrop-blur shadow-2xl shadow-black/80 w-full max-w-md">
               <img
-                src="image/image_menu.jpg"
+                src="image/image_menu_new.jpg"
                 alt="kongkospa Services Booklet"
                 className="w-full h-auto rounded-xl object-contain shadow-lg border border-gold/10"
               />

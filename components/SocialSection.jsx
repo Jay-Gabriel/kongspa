@@ -287,7 +287,7 @@ const SocialSection = () => {
                   {/* Facebook */}
                   <motion.a
                     whileHover={{ y: -3, scale: 1.05, borderColor: "rgba(212,175,55,0.4)" }}
-                    href="https://www.facebook.com/profile.php?id=61590153940347&rdid=tqRkcaDFwKrWvxOq&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1H4Ziz8DBr%2F"
+                    href="https://www.facebook.com/profile.php?id=61590924832311&rdid=2mMVac6uSVxIrjYd&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ELzNwmgRC#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full smoked-glass border border-white/5 flex items-center justify-center text-white/70 hover:text-gold transition-colors duration-300"
@@ -299,7 +299,7 @@ const SocialSection = () => {
                   {/* Instagram */}
                   <motion.a
                     whileHover={{ y: -3, scale: 1.05, borderColor: "rgba(212,175,55,0.4)" }}
-                    href="https://www.instagram.com/kangko_spa?utm_source=qr&igsh=ZmN6aHBzczZ1bWNm"
+                    href="https://www.instagram.com/kongkospaformen"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full smoked-glass border border-white/5 flex items-center justify-center text-white/70 hover:text-gold transition-colors duration-300"

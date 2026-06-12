@@ -1,7 +1,9 @@
 const App = () => {
   const Navbar = window.Navbar;
   const Hero = window.Hero;
+  const PromoSection = window.PromoSection;
   const Therapies = window.Therapies;
+  const StaffSection = window.StaffSection;
   const MenuSection = window.MenuSection;
   const SocialSection = window.SocialSection;
 
@@ -13,8 +15,14 @@ const App = () => {
       {/* Hero / Landing View */}
       <Hero />
 
+      {/* Grand Opening Promo (hides automatically when expired) */}
+      <PromoSection />
+
       {/* Therapies / Services View */}
       <Therapies />
+
+      {/* Gen Z Therapist Team Showcase */}
+      <StaffSection />
 
       {/* Menu & Booklet View */}
       <MenuSection />
